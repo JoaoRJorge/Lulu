@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="joao2.css">
+</head>
+<body>
+    <header></header>
+    <main class="container">  
+    <Section>
+        <H2 class="texto__principal"> A maga yordle Lulu é conhecida por conjurar ilusões de sonhos e criaturas fantasiosas enquanto vaga por Runeterra com seu silfo companheiro, Pix. Lulu transforma a realidade por capricho, distorcendo o que ela vê como restrições desse banal reino físico...</H2>
+        <p class="texto__secundario"> Yordles: Os yordles são seres mágicos misteriosos que habitam os lugares mais estranhos possíveis, isso quando não estão no seu próprio plano espiritual e atemporal, conhecido principalmente como Bandópolis, mas existe outros nomes conforme a cultura.
+        </p>
+        <div class="rede__social">
+          <a class="rede__social__insta" href="https://www.instagram.com/joaoricardojorge74/">Instagram</a>
+          </Section>
+        
+            <img src="joao34.webp" alt="">
+           
+    </main>
+
+    <section>
+     
+    </section>
+
+      
+
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Partículas Animadas</title>
+  <style>
+
+
+    .particle {
+      position: absolute;
+      width: 5px;
+      height: 5px;
+      background-color: rgb(178, 5, 231);
+      border-radius: 100%;
+      animation: move 10s infinite;
+      opacity: 0.7;
+    }
+
+    @keyframes move {
+      0% {
+        transform: translate(0, 0);
+      }
+      100% {
+        transform: translate(calc(100vw * (var(--x))), calc(100vh * (var(--y))));
+      }
+    }
+  </style>
+</head>
+<body>
+  <script>
+    const numParticles = 100;
+    for (let i = 0; i < numParticles; i++) {
+      const particle = document.createElement('div');
+      particle.classList.add('particle');
+      particle.style.setProperty('--x', Math.random());
+      particle.style.setProperty('--y', Math.random());
+      particle.style.left = `${Math.random() * 100}vw`;
+      particle.style.top = `${Math.random() * 100}vh`;
+      particle.style.animationDuration = `${Math.random() * 10 + 5}s`;
+      document.body.appendChild(particle);
+    }
+  </script>
+</body>
+</html>

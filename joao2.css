@@ -1,0 +1,75 @@
+* {margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    }
+
+
+.header{
+    background-color: aqua;
+}
+
+
+.color{
+    background-color:aliceblue
+}
+body{
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: #000000;
+    color: #F6F6F6;}
+
+
+.teste {   margin: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: 
+
+}
+
+
+.apresentacao {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10%;
+}
+.container {
+    margin: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+
+.texto__principal {
+    font-size: 48px;
+    font-weight: 400;
+}
+
+
+.texto__secundario{
+    font-size: 28px;
+
+}
+
+
+.rede__social__insta{
+background-color: #22d4fd;
+width: 280px;
+text-align: center;
+border-radius: 16px;
+font-size: 24px;
+padding: 0 21;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 8vh;
+margin: 0;
+background-color: #f0f0f0; background: linear-gradient(45deg, #17157e50, #ca3ce6, #dc2743, #cc2366, #bc1888);
+border: none;
+border-radius: 16px;
+color: white;
+
+font-size: 18px;
+font-weight: bold;
+cursor: pointer;
+transition: transform 0.3s ease, box-shadow 0.3s ease;
